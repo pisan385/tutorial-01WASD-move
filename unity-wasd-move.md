@@ -1,3 +1,6 @@
+
+## Instructions
+
 1. Select 2D Core for a new project
 2. Create "Game Object -> 2D Object -> Sprites -> Triangle". The default position will be X:0 Y:0 Z:0
 3. Change game object to be red

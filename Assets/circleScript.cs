@@ -11,6 +11,7 @@ public class circleScript : MonoBehaviour
     }
 
     public float speed = 10f;
+    public GameObject capsule;
 
     // Update is called once per frame
     void Update()
@@ -31,6 +32,11 @@ public class circleScript : MonoBehaviour
         if(Input.GetKey(KeyCode.A))
         {
             pos.x -= speed * Time.deltaTime;
+        }
+        if(Input.GetKeyDown(KeyCode.Space))
+        {
+            Debug.Log("Creating capsule.");
+            Instantiate(capsule, pos, Quaternion.identity);
         }
         transform.position = pos;
 

@@ -11,4 +11,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Scene2.unity
     guid: 3bcd5ba43b2e04f22811fa21faa660b3
+  - enabled: 1
+    path: Assets/Scenes/proxi@uw.edu.unity
+    guid: 8c87f5834a91ba54ebe52fcfd53eca8d
   m_configObjects: {}

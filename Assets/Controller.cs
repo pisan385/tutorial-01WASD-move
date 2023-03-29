@@ -16,9 +16,8 @@ public class Controller : MonoBehaviour
         Instance = this;
         DontDestroyOnLoad(gameObject);
         numberOfScenes = SceneManager.sceneCountInBuildSettings;
-
     }
-
+    
     // Update is called once per frame
     void Update()
     {
